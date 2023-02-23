@@ -45,6 +45,10 @@ p {
     opacity: 0.75;
 }
 
+#iconlightdark {
+    text-decoration: none;
+    color: #fff;
+}
 
 
 .buttons {
@@ -54,13 +58,12 @@ p {
 }
 
 .google-btn {
+    padding: 10px;
     background-color: #1A73E8;
     border: none;
     border-radius: 5px;
-    height: 40px;
     display: flex;
     align-items: center;
-    padding: 2px;
     cursor: pointer;
 }
 
@@ -75,31 +78,24 @@ p {
     font-family: 'Ubuntu', sans-serif;
 }
 
-.google-btn picture {
-    width: 35px;
-    background-color: white;
-    height: 35px;
-    border-radius: 2px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
 .google-btn picture img {
     width: 75%;
 }
 
 .twitter-btn {
-    color: #bbb;
-    background-color: #eee;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    background-color: #00aaec;
     border: none;
-    width: 40px;
     border-radius: 5px;
     cursor: pointer;
 }
 
 .twitter-btn:hover {
-    background-color: #ddd;
+    background-color: #0076a4;
 }
 
 .separator {
